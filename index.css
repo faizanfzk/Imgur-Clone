@@ -1,0 +1,54 @@
+#main{
+    width: 100%;
+    background-color:  rgb(23,21,68);
+    
+}
+
+#Navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    height: 50px;
+    align-items: baseline;
+    border-bottom: 1px solid yellow;
+
+}
+
+#logo a{
+    font-weight: bolder;
+    font-size: 30px;
+    color: yellow;
+    text-decoration: none;
+    
+}
+#right a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-weight: bold;
+}
+.signup{
+    background-color: rgb(47, 167, 47);
+    padding: 10px;
+    width: 25px;
+    border-radius: 5px;
+}
+.Ad{
+    background-color: rgb(139, 139, 221);
+    padding: 10px;
+    width: 25px;
+    border-radius: 5px;  
+}
+#container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+padding: auto;
+
+   
+}
+img{
+    width: 200px;
+    height: 200px;
+}
